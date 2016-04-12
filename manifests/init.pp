@@ -1,1 +1,1 @@
-class r10kprofile{ }
+class r10kprofile { }
