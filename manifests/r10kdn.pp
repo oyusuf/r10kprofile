@@ -1,7 +1,7 @@
 class r10kprofile::r10kdn {
 
 class { 'r10k':
-    remote                 =>'git@10.10.10.52:r10k-controlrepo.git',
+    remote                 =>'git@github.com:oyusuf/r10k-controlrepo.git',
     include_prerun_command => true,
   }
 
