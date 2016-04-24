@@ -2,7 +2,7 @@ class r10kprofile::r10kdn {
 
 class { 'pe_r10k':
     remote                 =>'git@github.com:oyusuf/r10k-controlrepo.git',
-    include_prerun_command => true,
+#  include_prerun_command => true,
   }
 
   # Webhook configuration
