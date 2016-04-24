@@ -6,7 +6,7 @@ class { 'pe_r10k':
   }
 
   # Webhook configuration
-  include r10k::mcollective
+#  include r10k::mcollective
   # include r10k::webhook
 
   # class { 'r10k::webhook::config':
